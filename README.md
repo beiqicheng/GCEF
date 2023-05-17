@@ -20,4 +20,4 @@ Understanding and quantifying the ecological processes that control community as
 5. Sample_V34.fasta
 * An example for V3-V4 region of 16S rRNA gene in a metagenome contig file.
 6. Following step
-* After extraction, several additional steps are required for the application of the iCAMP model, including clustering, alignment, and phylogenetic tree construction.
+* After extraction, several additional steps are required for the application of the iCAMP model, including clustering, mapping, alignment, and phylogenetic tree construction.
