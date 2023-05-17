@@ -1,0 +1,5 @@
+After extracting the V3-V4 regions of 16S rRNA gene, several steps to prepare files for iCAMP model:
+
+1. Filer the length of V34 fasta (> 400 bp in our study)
+
+2. 
