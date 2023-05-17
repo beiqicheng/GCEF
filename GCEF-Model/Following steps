@@ -2,4 +2,10 @@ After extracting the V3-V4 regions of 16S rRNA gene, several steps to prepare fi
 
 1. Filer the length of V34 fasta (> 400 bp in our study)
 
-2. 
+2. Cluster V34 fasta to operational taxonomic units (OTUs) based upon similarity
+
+3. Mapping the metagenome fastq to OTU fasta using bowtie2 or bwa
+
+4. Alignmeng of V34 fasta using: mafft  --adjustdirection OTUs.fa > OTU-align.fa
+
+5. Building a phylogenetic tree of OTUs.fa: raxmlHPC -m GTRGAMMA -p 12345 -s OTU-align.fa -n model -f a -x 12345 -N 1000 -T 12
